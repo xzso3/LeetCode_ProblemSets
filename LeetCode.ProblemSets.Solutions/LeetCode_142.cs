@@ -2,7 +2,7 @@
 
 public class LeetCode_142
 {
-    // Fast-Slow Pointer with counter.
+    // Fast-Slow Pointer.
     public ListNode DetectCycle(ListNode head)
     {
         if (head == null || head.next == null)
