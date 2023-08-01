@@ -29,10 +29,10 @@ namespace LeetCode.Problem141
         public int val;
         public ListNode next;
 
-        public ListNode(int x)
+        public ListNode(int x,ListNode next = null)
         {
             val = x;
-            next = null;
+            this.next = next;
         }
     }
     
